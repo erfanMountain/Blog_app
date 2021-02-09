@@ -1,0 +1,28 @@
+{% load static %} <!-- this is for if I have the image in the code if I don't write it then it will not show the static files-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+</head>
+<body>
+<div class="page-header">
+    <h1><a href="{% url "post_list" %}">My BLOG</a></h1>
+    <!-- here slash we used because it will redirect to home page prefered way is  -->
+</div>
+<div class="content container"> <!-- here content is one class and container is another class -->
+    <div class="row"> <!-- Adding the row because then it will n't go to entire line. so it will be under the div-->
+        <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+</body>
+</html>

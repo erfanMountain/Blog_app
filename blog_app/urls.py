@@ -8,4 +8,8 @@ urlpatterns = [
     # when it is 127.0.0.1:8000/post/new --> local
     # when it is mydjangosite.com/post/new --> online
     path('post/new/', views.post_new, name='post_new'),
+
+    #127.0.0.1:8000/post/2/edit --> local
+    # mydjangosite.com/post/2/edit --> online
+    path('post/<int:pk>/edit', views.post_edit, name='post_edit'),
 ]

@@ -7,6 +7,9 @@
                 {{ post.published_date }}
             </div>
         {% endif %}
+
+    <a href="{% url 'post_edit' pk=post.pk%}"><i class="far fa-keyboard fa-2x fa-spin" style="color: #339af0"></i></a>
+
         <h1>{{ post.title }}</h1>
         <p>{{ post.text|linebreaksbr }}</p>
 

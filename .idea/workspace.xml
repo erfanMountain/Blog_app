@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c224e0cb-6cbe-4edd-ae4e-49bb7b20a6c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="0fde4a42-38f0-4bf9-90b3-27445641b67c" />
+  <component name="ProjectId" id="1lxsFP1jI6xmIFopYxFJKNcAtcy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JSON" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\erfanahmed2\clever_app\My_blog\blog_app\templates\blog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="My_blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="My_blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="blogsite.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python3.7\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8082" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c224e0cb-6cbe-4edd-ae4e-49bb7b20a6c6" name="Default Changelist" comment="" />
+      <created>1608549977458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608549977458</updated>
+      <workItem from="1608549978581" duration="672000" />
+      <workItem from="1608551046836" duration="381000" />
+      <workItem from="1608551632145" duration="6458000" />
+      <workItem from="1608562966931" duration="22175000" />
+      <workItem from="1608723277587" duration="677000" />
+      <workItem from="1608755242399" duration="946000" />
+      <workItem from="1608810522137" duration="3125000" />
+      <workItem from="1609227330418" duration="594000" />
+      <workItem from="1609681678717" duration="1557000" />
+      <workItem from="1609751429364" duration="12000" />
+      <workItem from="1609962534511" duration="3169000" />
+      <workItem from="1610021832979" duration="3476000" />
+      <workItem from="1611002673433" duration="237000" />
+      <workItem from="1611002966271" duration="592000" />
+      <workItem from="1611040628296" duration="590000" />
+      <workItem from="1611693239056" duration="1310000" />
+      <workItem from="1612559745304" duration="38785000" />
+      <workItem from="1612898400302" duration="9841000" />
+      <workItem from="1613025689940" duration="21970000" />
+      <workItem from="1613419313695" duration="4308000" />
+      <workItem from="1613641110382" duration="1287000" />
+      <workItem from="1613938420042" duration="1286000" />
+      <workItem from="1614070091132" duration="705000" />
+      <workItem from="1614163276192" duration="2870000" />
+      <workItem from="1614167721255" duration="584000" />
+      <workItem from="1614584799502" duration="40000" />
+      <workItem from="1616273850332" duration="22173000" />
+      <workItem from="1616528201762" duration="7382000" />
+      <workItem from="1616615579688" duration="2640000" />
+      <workItem from="1617306168256" duration="1744000" />
+      <workItem from="1617568158360" duration="13650000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612700632761">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1612700632761" />
+    <state x="2639" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617648687608">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2639" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1617648687608" />
+    <state x="2505" y="88" key="CommitChangelistDialog2" timestamp="1612870071176">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2505" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1612870071176" />
+    <state x="2104" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1612903105938">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2104" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1612903105938" />
+    <state x="2659" y="275" key="FileChooserDialogImpl" timestamp="1613309792483">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2659" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1613309792483" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1617691976641">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1617691976641" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1617690345448" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1617691976641">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1617691976641" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1617690345448" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1617691976641">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1617691976641" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1617690345447" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1617691976641">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1617691976641" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1617690345448" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1612899665044">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1612899665044" />
+    <state x="4301" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1611002914723" />
+    <state x="2277" y="219" width="1217" height="624" key="dock-window-1" timestamp="1612700575244">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2277" y="219" width="1217" height="624" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1612700575244" />
+    <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1616340305059">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2587" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1616340305059" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617693048742">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1617693048742" />
+    <state x="4463" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1616529076802" />
+  </component>
+</project>

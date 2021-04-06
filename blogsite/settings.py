@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# For login
+LOGIN_REDIRECT_URL = 'post_list'
 
 # Application definition
 

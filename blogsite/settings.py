@@ -30,6 +30,9 @@ ALLOWED_HOSTS = []
 # For login
 LOGIN_REDIRECT_URL = 'post_list'
 
+# For logout
+LOGOUT_REDIRECT_URL = 'post_list'
+
 # Application definition
 
 INSTALLED_APPS = [

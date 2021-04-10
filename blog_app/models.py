@@ -15,6 +15,10 @@ class Post(models.Model):
         self.published_date = timezone.now()
         self.save()  # reason why we created the publish function this is because some time we write the post but we don't post it when we will finally post then It will call this function.
 
+    def approved_comments(self):
+        return self.comments.filter(approved=True)
+
+
     # create a string representation
     def __str__(self):
         return self.title
@@ -31,6 +35,11 @@ class Comment(models.Model):
     author = models.CharField(max_length=200)
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
+    approved = models.BooleanField(default=False)
+
+    def approve(self):
+        self.approved = True
+        self.save()
 
     def __str__(self):
         """

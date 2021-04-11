@@ -12,3 +12,4 @@ class CommentForm(forms.ModelForm):
         model = Comment
         # Here comma is added because we can add more comma later on
         fields = ('text',)
+

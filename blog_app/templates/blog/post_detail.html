@@ -1,5 +1,7 @@
 {% extends 'blog/base.html' %}
 
+{% load markdownify %}
+
 {% block title %}{{ post.title }}{% endblock %}
 {% block content %}
     <div class="post">
@@ -15,7 +17,7 @@
             <a href="{% url 'post_edit' pk=post.pk%}"><i class="far fa-keyboard fa-2x fa-spin" style="color: #339af0"></i></a>
         {% endif %}
         <h1>{{ post.title }}</h1>
-        <p>{{ post.text|linebreaksbr }}</p>
+        <p>{{ post.text| markdown | safe }}</p>
     </div>
 
     <hr>
@@ -35,7 +37,7 @@
 
             {% endif %}
             <strong>{{ comment.author }}</strong>
-            <p>{{ comment.text }}</p>
+            <p>{{ comment.text | markdown | safe | linebreaksbr }}</p>
         </div>
         {% endif %}
     {% empty %}

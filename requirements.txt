@@ -1,5 +1,6 @@
 asgiref==3.3.1
 Django==3.1.4
+django-crispy-forms==1.11.2
 Markdown==3.3.4
 mistune==0.8.4
 Pygments==2.8.1
